@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: pink;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    display: grid;
+    position: sticky;
+    
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info-3 {
+    margin-left: 7%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: double;
+    text-transform: uppercase;
+    color: rgb(230,104,59);
+    font-weight: bold;
+    font-size: medium;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+.stock {
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
+    font-weight: bolder;
+    color: blue;
+    border-radius: 50px;
+    border-color: black;
+    border-style: groove;
+    position: sticky;
+    display: flex;
+    
+}
+.image-shoe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 30px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+.image-kitchen {
+    align-items: center;
+    display: block;
+    margin-left: 120px;
+    justify-content: space-between;
+    width: 300px;
+    background: pink;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    font-family: sans-serif;
+    margin: 30px;
+    padding: 0;
+    border-left: 50px;
+    margin-bottom: 20px;
+}
+.perfume {
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+.shoe-detail {
+ margin-top: 230px;
+ align-items: left;
+ margin-right: 300px;
+ display: block;
+}
+.shoe-info {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 300px;
+    color: rgb(6, 75, 135);
+}
+.shoe-info:hover, .kitchen-info:hover, .perfume-info:hover, .undies-2:hover {
+    cursor: pointer;
+    color: blue;
+    transition: 1s;
+}
+.kitchen-info {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 315px;
+    margin-left: 422px;
+    color: rgb(6, 75, 135);
+}
+.perfume-info {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 315px;
+    margin-left: 850px;
+    color: rgb(6, 75, 135);
+}
+.undies {
+    margin-top: 56px;
+    margin-left: 15px;
+}
+.undies-2 {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    color: rgb(6, 75, 135);
+}
