@@ -246,3 +246,38 @@ ul li a:hover{
     font-weight: 100;
     color: rgb(6, 75, 135);
 }
+.load-bearing {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 360px;
+    margin-left: 850px;
+    color: rgb(6, 75, 135);
+}
+.hanger {
+    margin-top: 60px;
+
+}
+.hanger-info {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 790px;
+    margin-left: 422px;
+    color: rgb(6, 75, 135);
+}
+.load-bearing {
+    margin-top: 460px;
+}
+.load {
+    display: block;
+    position: absolute;
+    font-size: large;
+    font-weight: 100;
+    margin-top: 790px;
+    margin-left: 800px;
+    color: rgb(6, 75, 135);
+}
+
